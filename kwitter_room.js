@@ -8,7 +8,6 @@
       messagingSenderId: "54274357550",
       appId: "1:54274357550:web:8b43aa200cfbcd12d2a2bf"
     };
-    // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
 
     var user_name = localStorage.getItem("user_name");
